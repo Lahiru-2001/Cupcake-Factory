@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".USER_.OderCupcake">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-91dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:background="@drawable/user"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="55dp"
+            android:text="ORDER CUPCAKES"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold|italic" />
+
+
+        <Spinner
+            android:id="@+id/sp_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            />
+
+        <RadioButton
+            android:id="@+id/Item1"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Vanilla Rs.20"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold|italic" />
+
+        <RadioButton
+            android:id="@+id/item2"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Chocolate Rs.50"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/txt_item_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Add Items"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/totaoprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:text="total price:-" />
+
+
+        <Button
+            android:id="@+id/btn_oder"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="35dp"
+            android:background="@color/material_dynamic_neutral50"
+            android:text="Order"
+            android:textColor="@color/white"
+            android:textSize="23dp"
+            android:textStyle="bold|normal" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

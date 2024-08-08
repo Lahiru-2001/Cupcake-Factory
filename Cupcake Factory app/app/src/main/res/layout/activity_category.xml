@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ADMIN.Menu.CategoryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-91dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:background="@drawable/im134"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:text="ADD CATEGORY:-"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btn_CAT_ADD"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:text="ADD"
+            android:background="@color/material_dynamic_neutral50"
+            android:textColor="@color/black"
+            android:textSize="23dp"
+            android:textStyle="bold|normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:text="MANAGE CATEGORY:-"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btn_CAT_MANAGEBut"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:text="MANAGE"
+            android:background="@color/material_dynamic_neutral50"
+            android:textColor="@color/black"
+            android:textSize="23dp"
+            android:textStyle="bold|normal" />
+
+
+        <Button
+            android:id="@+id/btn_CAT_BACK"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="110dp"
+            android:layout_gravity="center"
+            android:text="BACK"
+            android:background="@color/material_dynamic_neutral50"
+            android:textColor="@color/black"
+            android:textSize="23dp"
+            android:textStyle="bold|normal" />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

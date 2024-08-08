@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".USER_.USERLoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-91dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:background="@drawable/image01"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="55dp"
+            android:text="USER LOGIN.."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/txt_US_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:drawableLeft="@drawable/baseline_account_circle_24"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="ENTER YOUR USER ID:-"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/txt_US_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:drawableLeft="@android:drawable/ic_lock_lock"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="ENTER YOUR PASSWORD:-"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:textColorHint="@color/black"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btn_US_login"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:text="LOGIN"
+            android:background="@color/material_dynamic_neutral50"
+            android:textColor="@color/white"
+            android:textSize="23dp"
+            android:textStyle="bold|normal" />
+
+        <Button
+            android:id="@+id/btn_US_Register"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="35dp"
+            android:layout_gravity="center"
+            android:text="REGISTER"
+            android:background="@color/material_dynamic_neutral50"
+            android:textColor="@color/white"
+            android:textSize="23dp"
+            android:textStyle="bold|normal" />
+
+        <Button
+            android:id="@+id/btn_US_Back"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="40dp"
+            android:background="@color/design_default_color_secondary"
+            android:text="Back"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold|normal" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
